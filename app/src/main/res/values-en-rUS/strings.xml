@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Attendance Management</string>
+    <string name="qlcn">Worker Manager</string>
+    <string name="chitiet">Detail</string>
+    <string name="macn">Worker Code</string>
+    <string name="hocn">Worker Surname</string>
+    <string name="tencn">Worker Name</string>
+    <string name="phanxuong">Factory</string>
+    <string name="them">Add</string>
+    <string name="xoa">Delete</string>
+    <string name="sua">Edit</string>
+    <string name="clear">Clear</string>
+    <string name="dscn">a</string>
+    <string name="chamcong">ac</string>
+    <string name="macc">ac</string>
+    <string name="ngaycc">a</string>
+    <string name="ctcc">a</string>
+    <string name="mcc">a</string>
+    <string name="sp">a</string>
+    <string name="stp">a</string>
+    <string name="spp">a</string>
+    <string name="masp">a</string>
+    <string name="tensp">a</string>
+    <string name="dongia">a</string>
+    <string name="anh">a</string>
+    <string name="dscc">a</string>
+    <string name="phieutienluong">a</string>
+    <string name="thanhtien">a</string>
+    <string name="tongtien">a</string>
+</resources>

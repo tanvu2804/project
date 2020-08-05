@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.project.GiaoDien.ChiTietActivity">
+    <TextView android:text="@string/chitiet" style="@style/tieude"/>
+
+    <EditText style="@style/txt" android:hint="@string/macn" android:id="@+id/txtMa"/>
+    <EditText style="@style/txt" android:hint="@string/hocn" android:id="@+id/txtHo"/>
+    <EditText style="@style/txt" android:hint="@string/tencn" android:id="@+id/txtTen"/>
+    <EditText style="@style/txt" android:hint="@string/phanxuong" android:id="@+id/txtPhanXuong"/>
+
+</LinearLayout>

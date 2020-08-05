@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GiaoDien.MainActivity"
+    android:orientation="vertical"
+    android:id="@+id/aaaa">
+        <TextView
+            style="@style/tieude"
+            android:text="@string/ctcc"/>
+        <EditText
+            android:id="@+id/txtMaCc"
+            style="@style/txt"
+            android:hint="@string/mcc" />
+
+    <EditText
+        android:id="@+id/txtStp"
+        style="@style/txt"
+        android:hint="@string/stp"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/txtSpp"
+        style="@style/txt"
+        android:hint="@string/spp"
+        android:inputType="number" />
+
+        <LinearLayout
+            style="@style/horizontal">
+
+            <TextView
+                style="@style/tv"
+                android:text="@string/sp" />
+
+            <Spinner
+                android:id="@+id/spSanPham"
+                style="@style/sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/horizontal"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnThem"
+                style="@style/btn"
+                android:drawableLeft="@drawable/ic_add_black_24dp"
+                android:text="@string/them"
+                />
+
+            <Button
+                android:id="@+id/btnXoa"
+                style="@style/btn"
+                android:drawableLeft="@drawable/ic_delete_forever_black_24dp"
+                android:text="@string/xoa" />
+
+            <Button
+                android:id="@+id/btnSua"
+                style="@style/btn"
+                android:drawableLeft="@drawable/ic_update_black_24dp"
+                android:text="@string/sua" />
+
+            <Button
+                android:id="@+id/btnClear"
+                style="@style/btn"
+                android:drawableLeft="@drawable/ic_clear_all_black_24dp"
+                android:text="@string/clear" />
+
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/lvDanhSach"
+            style="@style/lv"> </ListView>
+
+</LinearLayout>

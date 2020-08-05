@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView
+        android:id="@+id/imgPhanXuong"
+        style="@style/btnimg"
+        android:src="@drawable/anhpx1" />
+
+    <LinearLayout
+        style="@style/verticallv">
+
+        <TextView
+            android:id="@+id/tvHoTenCN"
+            style="@style/tv"
+            android:text="Văn Tấn Vũ" />
+
+        <TextView
+            android:id="@+id/tvMaCN"
+            android:text="CN1"
+            style="@style/tv"
+            />
+    </LinearLayout>
+    <ImageView
+    style="@style/btnimg"
+    android:id="@+id/imgChiTiet"
+    android:src="@drawable/ic_mode_edit_black_24dp"/>
+
+</LinearLayout>

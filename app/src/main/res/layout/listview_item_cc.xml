@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView
+        android:id="@+id/tvMaCC"
+        style="@style/btnimg"
+        android:text="CC1"/>
+
+    <LinearLayout
+        style="@style/verticallv">
+
+        <TextView
+            android:id="@+id/tvMaCN"
+            style="@style/tv"
+            android:text="CN1" />
+
+        <TextView
+            android:id="@+id/tvNgayCC"
+            android:text="19/06/2020"
+            style="@style/tv"
+            />
+    </LinearLayout>
+    <ImageView
+        style="@style/btnimg"
+        android:id="@+id/imgChiTiet"
+        android:src="@drawable/ic_mode_edit_black_24dp"/>
+
+</LinearLayout>

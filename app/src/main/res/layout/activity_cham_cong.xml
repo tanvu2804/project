@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.project.GiaoDien.MainActivity">
+    <TextView
+        style="@style/tieude"
+        android:text="@string/chamcong"/>
+    <EditText
+        android:id="@+id/txtMaCC"
+        style="@style/txt"
+        android:hint="@string/macc" />
+
+    <EditText
+        android:id="@+id/txtNgayCC"
+        style="@style/txt"
+        android:hint="@string/ngaycc" />
+
+    <EditText
+        android:id="@+id/txtMaCN"
+        style="@style/txt"
+        android:hint="@string/macn" />
+
+    <LinearLayout
+        style="@style/horizontal"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnThem"
+            style="@style/btn"
+            android:drawableLeft="@drawable/ic_add_black_24dp"
+            android:text="@string/them"
+            />
+
+        <Button
+            android:id="@+id/btnXoa"
+            style="@style/btn"
+            android:drawableLeft="@drawable/ic_delete_forever_black_24dp"
+            android:text="@string/xoa" />
+
+        <Button
+            android:id="@+id/btnSua"
+            style="@style/btn"
+            android:drawableLeft="@drawable/ic_update_black_24dp"
+            android:text="@string/sua" />
+
+        <Button
+            android:id="@+id/btnClear"
+            style="@style/btn"
+            android:drawableLeft="@drawable/ic_clear_all_black_24dp"
+            android:text="@string/clear" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lvDanhSach"
+        style="@style/lv"> </ListView>
+
+</LinearLayout>

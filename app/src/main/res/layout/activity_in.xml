@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".GiaoDien.InActivity">
+
+    <TextView
+        style="@style/tieude"
+        android:text="@string/phieutienluong" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            style="@style/tv2"
+            android:text="@string/macn" />
+
+        <TextView
+            android:id="@+id/tvMaCN1"
+            style="@style/tv"
+            android:layout_marginLeft="5dp"
+            android:text="CN1" />
+
+        <TextView
+            style="@style/tv2"
+            android:layout_marginLeft="20dp"
+            android:text="@string/phanxuong" />
+
+        <TextView
+            android:id="@+id/tvPX1"
+            style="@style/tv"
+            android:layout_marginLeft="5dp"
+            android:text="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            style="@style/tv2"
+            android:text="@string/tencn" />
+
+        <TextView
+            android:id="@+id/tvTenCN1"
+            style="@style/tv"
+            android:layout_marginLeft="5dp"
+            android:text="Nguyen Van A" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            style="@style/tv2"
+            android:text="@string/macc" />
+
+        <TextView
+            android:id="@+id/tvMaCC1"
+            style="@style/tv"
+            android:layout_marginLeft="5dp"
+            android:text="CC1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            style="@style/tv2"
+            android:text="@string/ngaycc" />
+
+        <TextView
+            android:id="@+id/tvNgayCC1"
+            style="@style/tv"
+            android:layout_marginLeft="5dp"
+            android:text="20/11/2020" />
+    </LinearLayout>
+
+    <TableLayout
+        style="@style/table"
+        android:layout_height="wrap_content"
+        android:background="#CCC6C6"
+        >
+
+        <TableRow
+            style="@style/table"
+            android:layout_width="wrap_content"
+
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/tvSTT"
+                style="@style/tvtable1"
+                android:layout_height="match_parent"
+                android:layout_width="30dp"
+                android:text="STT" />
+
+            <TextView
+                android:id="@+id/tvMaSP"
+                style="@style/tvtable1"
+                android:layout_width="52dp"
+                android:text="@string/masp" />
+
+            <TextView
+                android:id="@+id/tvTenSP"
+                style="@style/tvtable1"
+                android:layout_height="match_parent"
+                android:layout_width="97dp"
+                android:text="@string/tensp" />
+
+            <TextView
+                android:id="@+id/tvSTP"
+                style="@style/tvtable1"
+                android:layout_width="64dp"
+                android:text="@string/stp" />
+
+            <TextView
+                android:id="@+id/tvSPP"
+                style="@style/tvtable1"
+                android:layout_width="50dp"
+                android:text="@string/spp" />
+
+            <TextView
+                android:id="@+id/tvTC"
+                style="@style/tvtable1"
+                android:layout_width="39dp"
+                android:text="@string/dongia" />
+
+            <TextView
+                android:id="@+id/tvTT"
+                style="@style/tvtable1"
+                android:layout_width="56dp"
+                android:text="@string/thanhtien" />
+        </TableRow>
+
+        <ListView
+            android:id="@+id/lvIn"
+            style="@style/lvTable"
+            android:layout_height="135dp"
+            android:layout_span="7" />
+
+
+    </TableLayout>
+
+    <LinearLayout
+        style="@style/horizontal"
+        android:gravity="right">
+
+        <TextView
+            style="@style/tv"
+            android:text="@string/tongtien" />
+
+        <TextView
+            android:id="@+id/tvTongCong"
+            style="@style/tv"
+            android:text="1234" />
+    </LinearLayout>
+</LinearLayout>

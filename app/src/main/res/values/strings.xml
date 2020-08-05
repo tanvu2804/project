@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Quản Lý Chấm Công</string>
+    <string name="qlcn">Quản Lý Công Nhân</string>
+    <string name="chitiet">Chi Tiết</string>
+    <string name="macn">Mã Công Nhân</string>
+    <string name="hocn">Họ Công Nhân</string>
+    <string name="tencn">Tên Công Nhân</string>
+    <string name="phanxuong">Phân Xưởng</string>
+    <string name="them">Thêm</string>
+    <string name="xoa">Xóa</string>
+    <string name="sua">Sửa</string>
+    <string name="clear">Clear</string>
+    <string name="dscn">Danh Sách Công Nhân</string>
+    <string name="chamcong">Chấm Công</string>
+    <string name="macc">Mã Chấm Công</string>
+    <string name="ngaycc">Ngày Chấm Công</string>
+    <string name="ctcc">ChiTietChamCong</string>
+    <string name="mcc">Mã Chấm Công</string>
+    <string name="sp">Sản Phẩm</string>
+    <string name="stp">Số Thành Phẩm</string>
+    <string name="spp">Số Phế Phẩm</string>
+    <string name="masp">Mã Sản Phẩm</string>
+    <string name="tensp">Tên Sản Phẩm</string>
+    <string name="dongia">Đơn Giá</string>
+    <string name="anh">Ảnh Sản Phẩm</string>
+    <string name="dscc">Danh Sách Chấm Công</string>
+    <string name="phieutienluong">Phiếu Thanh Toán Tiền Lương</string>
+    <string name="thanhtien">Thành Tiền</string>
+    <string name="tongtien">Tổng Tiền</string>
+</resources>
